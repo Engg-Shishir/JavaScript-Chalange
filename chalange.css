@@ -1,0 +1,92 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+body{
+ background-color: #000;
+ color: #fff;
+}
+
+
+/* Chalange----1 */
+.container-1,.container-2,.container-3,.container-4{
+  width: 75%;
+  margin: 0 auto;
+ text-align: center;
+}
+h2.title{
+  background-color: rgb(39, 30, 30);
+}
+.flexbox-container-1,.flexbox-container-2,
+.flexbox-pic-color,.flex-blackjack-row-1,.flex-blackjack-row-2,.flex-blackjack-row-3{
+ padding: 10px;
+ display: flex;
+ align-items: center;
+ justify-content: space-around;
+ flex-wrap: wrap;
+}
+
+
+
+/* Chalange----2 */
+.flexbox-container-2{
+ padding: 10px;
+ display: flex;
+ align-items: center;
+ justify-content: space-around;
+ flex-wrap: wrap;
+}
+.flexbox-container-2 img{
+  box-shadow:1px 1px 14px rgba(255, 255, 255, 0.7);
+}
+.flexbox-container-2 img:hover{
+ box-shadow:1px 1px 34px rgba(0, 248, 62, 0.7);
+}
+#flex-box-rps-div{
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+/* Chalange----3 */
+.flexbox-pic-color{
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+ }
+ .flexbox-pic-color select{
+   padding: 5px;
+   border-radius:5px;
+   font-weight: 500;
+ }
+
+
+
+
+
+/* Chalange----4 */
+.flex-blackjack-row-1{
+  background-color: rgb(19, 8, 8);
+}
+.flex-blackjack-row-1 div{
+  padding: 10px;
+  height: 350px;
+  flex: 1;
+  text-align: center;
+}
+.flex-blackjack-row-1 img{
+  width: 25%;
+  padding: 10px;
+}
+ 

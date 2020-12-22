@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="bootstrap.min.css">
+ <link rel="stylesheet" href="chalange.css">
+ <title>Js Challange</title>
+</head>
+<body>
+   <!---- Challange 01 ------->
+   <div class="container-1">
+     <h2 class="title">Challange 1 : Your Age In Days</h2>
+     <div class="flexbox-container-1">
+      <button class="btn btn-primary" onclick="popup()">Click Me</button>
+      <div><h3 id="chalange-1"></h3></div>
+      <button class="btn btn-danger" onclick="reset()">Reset</button>
+     </div>
+   </div>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+
+   <!---- Challange 02 ------->
+   <div class="container-2">
+    <h2 class="title">Chalange 2 : Rock, Paper, Scissors</h2>
+    <div class="flexbox-container-2"  id="flex-box-rps-div">
+     <img id="rock" src="image/joybangla.jpg" alt="" height="150px" width="150px" onclick="rpsGame(this)">
+     <img id="paper" src="image/paper.jpg" alt="" height="150px" width="150px" onclick="rpsGame(this)">
+     <img id="scissors" src="image/earth.jpg" alt="" height="150px" width="150px" onclick="rpsGame(this)">
+    </div>
+   </div>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+
+
+
+
+    <!---- Challange 03 ------->
+    <div class="container-3">
+      <h2 class="title">Chalange 3 : Change All Buttons Color</h2>
+
+      <div class="flexbox-pic-color">
+        <form>
+          <select name="backdrop" id="background" onchange="buttoncolorchange(this)">
+            <option>Select</option>
+            <option value="random">Random</option>
+            <option value="red">Red</option>
+            <option value="green">Green</option>
+            <option value="reset">Reset</option>
+          </select>
+        </form>
+ 
+        <button class="btn btn-primary">Primary</button>
+        <button class="btn btn-danger">Danger</button>
+        <button class="btn btn-warning">Warning</button>
+        <button class="btn btn-success">Success</button>
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+
+
+  <!---- Challange 04 ------->
+  <div class="container-4">
+      <h2 class="title">Chalange 4 : Black Jack</h2>
+      <h3><span id="blackjack-result">Let's Play</span></h3>
+
+      <div class="flex-blackjack-row-1">
+        <div id="your-box">
+          <h2>You : <span id="your-blackjack-score">0</span></h2>
+        </div>
+        <div id="dealer-box">
+          <h2>dealer : <span id="dealer-blackjack-score">0</span></h2>
+        </div>
+      </div>
+
+      <div class="flex-blackjack-row-2">
+         <div>
+           <button id="blackjack-hit-button" class="btn btn-info mr-2" >Hit</button>
+           <button id="blackjack-stand-button" class="btn btn-warning mr-2">Stand</button>
+           <button id="blackjack-deal-button" class="btn btn-danger" >Deal</button>
+         </div>
+      </div>
+
+      <div class="flex-blackjack-row-3">
+        <table class="table-bordered">
+          <tr>
+            <th>Wins</th>
+            <th>Losses</th>
+            <th>Draws</th>
+          </tr>
+
+          <tr>
+            <td><span id="wins">0</span></td>
+            <td><span id="loses">0</span></td>
+            <td><span id="draws">0</span></td>
+          </tr>
+        </table>
+      </div>
+  </div>
+
+   <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+
+[
+   {
+    "name":"Quazi",
+    "age":25,
+    "height": 170
+   },
+   {
+    "name":"Litle Quazi",
+    "age":35,
+    "height": 70
+   },
+
+   {
+    "jsooon":"Json ia an array inside carry object"
+   }
+]
